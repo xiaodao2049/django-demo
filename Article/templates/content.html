@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内容</title>
+</head>
+<body>
+{% for arc in arclist %}
+    <h1>{{ arc.title }}</h1>
+    <p>{{ aut.name }}</p>
+    <time>{{ arc.date }}</time>
+    <div>{{ arc.content }}</div>
+{% endfor %}
+
+</body>
+</html>

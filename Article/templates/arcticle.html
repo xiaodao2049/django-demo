@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<h1>作品</h1>
+        <ul>
+        {% for arc in arclist %}
+            <li><a href={{ arc.id }}>{{ arc.title }}</a></li>
+             {% endfor %}
+        </ul>
+
+
+</body>
+</html>
