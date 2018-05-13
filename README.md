@@ -1,1 +1,1 @@
-# django-demo
+# There are some demos of django.
